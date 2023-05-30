@@ -1,7 +1,7 @@
 pipeline {
     environment {
         GIT_URL = "https://github.com/kangji0830/jenkins.git"
-        registry = "kangji0830/jenkins"
+        registry = "kangji0830/web"
         dockerImage = ""
         dockerhub = "https://hub.docker.com/repository/docker/username0830/jenkins/general"
         dockerhub_credentials = "jenkins-docker" 
