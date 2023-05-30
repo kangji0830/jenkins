@@ -4,7 +4,7 @@ pipeline {
         registry = "kangji0830/jenkins"
         dockerImage = ""
         dockerhub = "https://hub.docker.com/repository/docker/username0830/jenkins/general"
-        dockerhub_credentials = "jenkins-docker" #docker credentials ID 작성
+        dockerhub_credentials = "jenkins-docker" 
     }
    
     agent any
